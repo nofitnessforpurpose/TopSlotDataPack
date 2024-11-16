@@ -31,10 +31,18 @@ This repository holds files needed to create a Top Slot Data Pack Adapter for th
 <a target="_blank" rel="noopener noreferrer" href="https://www.kicad.org/" >KiCad </a> may prove suitable for viewing GERBER files.
 <br>
 
+## Use Case
+There are two scenarios envisaged for this design
+- Read only EEPROM Data Pack
+- Top Slot Hardware testing in conjunction with <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotSpy" >Top Slot Spy</a>
+
+
+  
 ## Consderations
 The 3D model makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
 The PCB is currently beta and has been tested, it remains your responsiblity to asses suitability!  
 The assembly of PCB and case has not been tested.  
+
 
 ## Please note:  
 All information is For Indication only.
