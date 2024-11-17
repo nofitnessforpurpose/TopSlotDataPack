@@ -38,7 +38,7 @@ There are two scenarios envisaged for this design
 
 
   
-## Consderations
+## Considerations
 The 3D model makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
 The PCB is currently beta and has been tested, it remains your responsiblity to asses suitability!  
 The assembly of PCB and case has not been tested.  
