@@ -36,7 +36,22 @@ There are two scenarios envisaged for this design
 - Read only EEPROM Data Pack
 - Top Slot Hardware testing in conjunction with <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotSpy" >Top Slot Spy</a>
 
-
+There are a number of types of Data Pack, the first iteration is intended to support Linear addressed packs:  
+Data Pack Type Summary  
+Size	Type  
+8K	Linear  
+16K	Linear  
+32K	Linear / Paged  
+64K	Linear / Paged  
+128K	Segmented and Paged  
+  
+RAMPACKS  
+32K	Paged  
+64K	Paged  
+128K	Segmented and Paged  
+  
+In summary 8 to 64 K Data packs, or devices emulating these pack addressing schemes.
+  
   
 ## Considerations
 The 3D model makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
