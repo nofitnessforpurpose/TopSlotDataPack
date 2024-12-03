@@ -50,14 +50,14 @@ RAMPACKS
 64K	Paged  
 128K	Segmented and Paged  
   
-In summary 8 to 64 K Data packs, or devices emulating these pack addressing schemes.
+In summary supported are 8 to 64 K Linear Data Packs, or devices emulating these pack addressing schemes.
   
   
 ## Considerations
 The 3D model makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
 The PCB is currently beta and has NOT been tested, it remains your responsiblity to asses suitability!  
 The assembly of PCB and case has not been tested.  
-
+Many pieces of software, including the authors ;-) may accidently, never have considerd allowing selection of Pack D: in menus  .
 
 ## Please note:  
 All information is For Indication only.
