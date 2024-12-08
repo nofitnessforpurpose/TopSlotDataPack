@@ -65,6 +65,6 @@ See <a target="_blank" rel="noopener noreferrer" href="https://www.organiser2.co
 
 
 ## Please note:  
-All information is For Indication only.
+All information is For Indication Only.
 No association, affiliation, recommendation, suitability, fitness for purpose should be assumed or is implied.
 Registered trademarks are owned by their respective registrants.
