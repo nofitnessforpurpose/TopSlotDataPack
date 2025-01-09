@@ -53,7 +53,7 @@ RAM Packs Type Summary
 |  64K	|        |   X   |           |
 | 128K	|        |   X   |     X     |
   
-In summary supported are 8 to 64 K Linear Data Packs, or devices emulating these pack addressing schemes.
+In summary supported are 8 to 64 K Linear Data Packs, or devices emulating these pack addressing schemes. There is no inherent limit to the size which is only problematic for random access use. 
 
 <BR>
     
