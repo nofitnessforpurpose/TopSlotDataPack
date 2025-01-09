@@ -1,1 +1,7 @@
-Not tested at this time
+09 Jan 2025
+
+PCB Rev 0.3 tested in CM and LZ machine working as expected.
+
+Note
+Due to lack of some lines on the top slot, as noted in the Technical Reference Manual, only linear data pack adressing is fully supported.
+Paged mode packs will allow reading of the lower page only in this release of the PCB.
