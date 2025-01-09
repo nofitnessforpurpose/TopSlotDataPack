@@ -65,11 +65,11 @@ The assembly of PCB and case has been tested.
 Many pieces of software, including the authors ;-) may accidently, never have considerd allowing selection of Pack D: in menus.  
 
 To use it may be necessary to create a stub program on A:, B: or C:  
-In the example case with the Info and Y2K fix pack, the stub program on A: would be:  
+In the example case with the Info and Y2K fix pack, the stub program INF: on A: would be:  
 
 ```
 INF:
-REM Stub code to run progam on pack D:
+REM Stub code to run program on pack D:
 INFO:
 ```
 
