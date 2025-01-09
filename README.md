@@ -38,21 +38,25 @@ There are two scenarios envisaged for this design
 
 There are a number of types of Data Pack, the first iteration is intended to support Linear addressed packs:  
 Data Pack Type Summary  
-Size	Type  
-8K	Linear  
-16K	Linear  
-32K	Linear / Paged  
-64K	Linear / Paged  
-128K	Segmented and Paged  
+| Size |	Linear | Paged | Segmented |
+| ---- | ------ | ----- | --------- |
+|   8K |	   X   |       |           |
+|  16K	|    X   |       |           | 
+|  32K | 	  X   |   X   |           |
+|  64K	|    X   |   X   |           | 
+| 128K	|        |   X   |     X     |
   
-RAMPACKS  
-32K	Paged  
-64K	Paged  
-128K	Segmented and Paged  
+RAM Packs Type Summary  
+| Size |	Linear | Paged | Segmented |
+| ---- | ------ | ----- | --------- |
+|  32K	|        |   X   |           |
+|  64K	|        |   X   |           |
+| 128K	|        |   X   |     X     |
   
 In summary supported are 8 to 64 K Linear Data Packs, or devices emulating these pack addressing schemes.
-  
-  
+
+<BR>
+    
 ## Considerations
 The 3D model makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
 
