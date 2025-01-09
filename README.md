@@ -1,4 +1,4 @@
-# Top Slot Data Pack - Pre Release
+# Top Slot Data Pack  
 
 PSION Organiser II - Top Slot Data Pack Adapter
 
