@@ -55,10 +55,19 @@ In summary supported are 8 to 64 K Linear Data Packs, or devices emulating these
   
 ## Considerations
 The 3D model makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
-The PCB is currently beta and has NOT been tested, it remains your responsiblity to asses suitability!  
-The assembly of PCB and case has not been tested.  
+
+The PCB has been tested in CM and LZ machines, it remains your responsiblity to asses suitability!  
+The assembly of PCB and case has been tested.  
 Many pieces of software, including the authors ;-) may accidently, never have considerd allowing selection of Pack D: in menus.  
 
+To use it may be necessary to create a stub program on A:, B: or C:  
+In the example case with the Info and Y2K fix pack, the stub program on A: would be:  
+
+```
+INF:
+REM Stub code to run progam on pack D:
+INFO:
+```
 
 ## Questions / Discussion
 See <a target="_blank" rel="noopener noreferrer" href="https://www.organiser2.com/"> Organiser 2 Hardware </a> forum, though see note below first.
