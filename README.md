@@ -62,7 +62,7 @@ Construction requires a minimum of:
 <BR>
 
 ## Limitations
-The Operating system on the test CM and LZ variants did not index through drive D: e.g. FIND, SAVE etc. However, COPY D: To A: (or other location does function.  
+The Operating system on the test CM and LZ variants did not index through drive D: e.g. FIND, SAVE etc. However, COPY D: To A: (or other location) does function.  
 
 Running programs diretly on the top slot is readily achieved as described below:
 Create a stub program on A:, B: or C:  
