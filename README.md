@@ -80,7 +80,7 @@ The PCB has been tested in CM and LZ machines, it remains your responsiblity to 
 The assembly of PCB and case has been tested.  
 Many pieces of software, including the authors ;-) may accidently, never have considerd allowing selection of Pack D: in menus.  
 
-<BR>
+The original male 8 way 2 row top slot header style connector (marked <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase/blob/main/images/MXS-70224-02%20(2).jpg">MXS 70224</a>) may have included a custom pin support moulding. Data from a parts list kindly indicated in this <a href="https://www.organiser2.com"> hardware forum</a> seemed to confirm this theory. Readily available 8 way 2 row header connectors tend to have smaller pin support mouldings. The effect of using pin headers with smaller moulding is to permit the PCB to displace vertically in the slot guide channel, resulting in poor alignment with the mating female connector and potential insertion difficulty. There are a number of mitigations, such as changing the height of the male header connector in the PCB and adding material to support the top of a smaller male header pin support moulding. The precise accommodation will depend on your selected pin header moulding, though this case is inteded to reduce issues. 
 
 ## Questions / Discussion
 See <a target="_blank" rel="noopener noreferrer" href="https://www.organiser2.com/"> Organiser 2 Hardware </a> forum, though see note below first.
