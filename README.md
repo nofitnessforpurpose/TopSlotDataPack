@@ -55,6 +55,9 @@ RAM Packs Type Summary
   
 In summary supported are 8 to 64 K Linear Data Packs, or devices emulating these pack addressing schemes. There is no inherent limit to the size which is only problematic for random access use. 
 
+Construction requires a minimum of:
+2 layer PCB
+2 off, 2 x 8 way Right angle header (~8 mm engagement length, gold plated)
 <BR>
 
 ## Limitations
