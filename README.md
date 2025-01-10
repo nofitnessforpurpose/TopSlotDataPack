@@ -56,15 +56,12 @@ RAM Packs Type Summary
 In summary supported are 8 to 64 K Linear Data Packs, or devices emulating these pack addressing schemes. There is no inherent limit to the size which is only problematic for random access use. 
 
 <BR>
-    
-## Considerations
-The 3D model makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
 
-The PCB has been tested in CM and LZ machines, it remains your responsiblity to asses suitability!  
-The assembly of PCB and case has been tested.  
-Many pieces of software, including the authors ;-) may accidently, never have considerd allowing selection of Pack D: in menus.  
+## Limitations
+The Operating system on the test CM and LZ variants did not index through drive D: e.g. FIND, SAVE etc. However, COPY D: To A: (or other location does function.  
 
-To use it may be necessary to create a stub program on A:, B: or C:  
+Running programs diretly on the top slot is readily achieved as described below:
+Create a stub program on A:, B: or C:  
 In the example case with the Info and Y2K fix pack, the stub program INF: on A: would be:  
 
 ```
@@ -72,6 +69,18 @@ INF:
 REM Stub code to run program on pack D:
 INFO:
 ```
+Notice the location is not specified. However, the system will locate the code on drive D: and run it from that location.
+
+<BR>
+
+## Considerations
+The 3D model makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
+
+The PCB has been tested in CM and LZ machines, it remains your responsiblity to asses suitability!  
+The assembly of PCB and case has been tested.  
+Many pieces of software, including the authors ;-) may accidently, never have considerd allowing selection of Pack D: in menus.  
+
+<BR>
 
 ## Questions / Discussion
 See <a target="_blank" rel="noopener noreferrer" href="https://www.organiser2.com/"> Organiser 2 Hardware </a> forum, though see note below first.
