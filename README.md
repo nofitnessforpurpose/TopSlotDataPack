@@ -1,8 +1,8 @@
 # Top Slot Data Pack  
 
-PSION Organiser II - Top Slot Data Pack Adapter
+Organiser II - Top Slot Data Pack Adapter
 
-This repository holds files needed to create a Top Slot Data Pack Adapter for the Psion Organiser 2  
+This repository holds files needed to create a Top Slot Data Pack Adapter for the Organiser 2  
  (Data Pack Not Included ;-) )
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
