@@ -31,6 +31,14 @@ This repository holds files needed to create a Top Slot Data Pack Adapter for th
 <a target="_blank" rel="noopener noreferrer" href="https://www.kicad.org/" >KiCad </a> may prove suitable for viewing GERBER files.
 <br>
 
+### On-Line Preview   
+Models might be viewed on line using the following links. Noting display of any mesh lines is a feature of the renderer and are not contained in the source STEP model. It is strongly recommended to use the source STEP file where ever possible, as any export process will introduce artifacts.  
+ - Top - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/CAD/Top%2009-DP02.stp">here</a>.  
+ - Bottom - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/CAD/Bottom%20TSS%2003.stp">here</a>.  
+ - Assembly - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/CAD/AssTSDP02.stp">here</a>.  
+<BR>
+<BR>
+
 ## Use Case
 There are two scenarios envisaged for this design
 - Read only EEPROM Data Pack
@@ -55,7 +63,7 @@ RAM Packs Type Summary
   
 In summary supported are 8 to 64 K Linear Data Packs, or devices emulating these pack addressing schemes. There is no inherent limit to the size which is only problematic for random access use. 
 
-###
+### 32K Linear & Paged Data Packs
 Example 32K Data Pack Configuration is shown in the image below.
 
 <div align="center">
@@ -68,6 +76,7 @@ Configuration link located on the right side of the board top left of the HEF402
 Top Pack - Modified - Linear - See Blue 0 Ohm Link  <BR>
 Bottom Pack - Original - Paged - See Green 0 Ohm Link  <BR>
 
+Note: Both pack types operate normally in the Side Slots.<BR>
 <BR>
 
 ## Construction  
