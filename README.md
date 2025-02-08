@@ -55,10 +55,29 @@ RAM Packs Type Summary
   
 In summary supported are 8 to 64 K Linear Data Packs, or devices emulating these pack addressing schemes. There is no inherent limit to the size which is only problematic for random access use. 
 
+###
+Example 32K Data Pack Configuration is shown in the image below.
+
+<div align="center">
+  <div style="display: flex; align-items: flex-start;">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/images/32K-Pack-Mod.jpg?raw=true" width="400px" alt="PSION Organiser 32 K Byte Data Pack configuration comparison between Linear and Paged modes. Image copyright (c) 08 February 2025 nofitnessforpurpose All Rights Reserved">
+  </div>
+</div>
+<BR>
+Configuration link located on the right side of the board top left of the HEF4024BT counter I.C.  <BR>
+Top Pack - Modified - Linear - See Blue 0 Ohm Link  <BR>
+Bottom Pack - Original - Paged - See Green 0 Ohm Link  <BR>
+
+<BR>
+
+## Construction  
 Construction requires a minimum of:  
 - 2 layer PCB
 - 2 off, 2 x 8 way Right angle header (~8 mm engagement length, gold plated)
-  
+<BR>
+Carefully verify connector heights where using typical header connectors not having 'classic' Organiser connector full body mouldings. See <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2/?tab=readme-ov-file#connector-alignment">here</a> for construction techniques.  
+
+<BR>
 <BR>
 
 ## Limitations
