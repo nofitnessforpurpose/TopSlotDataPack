@@ -33,9 +33,9 @@ This repository holds files needed to create a Top Slot Data Pack Adapter for th
 
 ### On-Line Preview   
 Models might be viewed on line using the following links. Noting display of any mesh lines is a feature of the renderer and are not contained in the source STEP model. It is strongly recommended to use the source STEP file where ever possible, as any export process will introduce artifacts.  
- - Top - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/CAD/Top%2009-DP02.stp">here</a>.  
- - Bottom - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/CAD/Bottom%20TSS%2003.stp">here</a>.  
- - Assembly - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/CAD/AssTSDP02.stp">here</a>.  
+ - Top - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/CAD/Top%2009-DP02.stp">here</a>  
+ - Bottom - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/CAD/Bottom%20TSS%2003.stp">here</a>  
+ - Assembly - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/CAD/AssTSDP02.stp">here</a>  
 <BR>
 <BR>
 
@@ -103,6 +103,7 @@ INFO:
 ```
 Notice the location is not specified. However, the system will locate the code on drive D: and run it from that location.
 
+This behaviour is detailed in the Technical Refrence manual in section <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/tech17.htm">17.7.20  QCO_PROC</a>  
 <BR>
 
 ## Considerations
