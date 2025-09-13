@@ -2,12 +2,12 @@
 
 Organiser II - Top Slot Data Pack Adapter
 
-This repository holds files needed to create a Top Slot Data Pack Adapter for the Organiser 2  
+This repository holds files needed to create a Top Slot Data Pack Adapter for the Organiser II family of devices.  
  (Data Pack Not Included ;-) )
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
     
-  <img src="https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/images/TSDP-01.png?raw=true" width="400px" alt="PSION Organiser II Top Slot Case. Image copyright (c) 10 August 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotDataPack/blob/main/images/TSDP04.jpg?raw=true" width="400px" alt="PSION Organiser II Top Slot Case. Image copyright (c) 10 August 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
@@ -26,9 +26,9 @@ This repository holds files needed to create a Top Slot Data Pack Adapter for th
 <br>
 
 <br>  
-<a target="_blank" rel="noopener noreferrer" href="https://www.freecad.org/" > FreeCAD </a> may prove suitable for viewing, handling and, if desired modifying STEP files.
+<a target="_blank" rel="noopener noreferrer" href="https://www.freecad.org/">FreeCAD</a> may prove suitable for viewing, handling and, if desired modifying STEP files.
 <br>
-<a target="_blank" rel="noopener noreferrer" href="https://www.kicad.org/" >KiCad </a> may prove suitable for viewing GERBER files.
+<a target="_blank" rel="noopener noreferrer" href="https://www.kicad.org/">KiCad</a> may prove suitable for viewing GERBER files.
 <br>
 
 ### On-Line Preview   
@@ -40,11 +40,12 @@ Models might be viewed on line using the following links. Noting display of any 
 <BR>
 
 ## Use Case
-There are two scenarios envisaged for this design
+There are two principle scenarios envisaged for this design:
 - Read only EEPROM Data Pack
-- Top Slot Hardware testing in conjunction with <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotSpy" >Top Slot Spy</a>
+- Hardware testing in conjunction with [Top Slot Spy](https://github.com/nofitnessforpurpose/TopSlotSpy) or [Side Slot Spy](https://github.com/nofitnessforpurpose/SideSlotSpy)
 
 There are a number of types of Data Pack, the first iteration is intended to support Linear addressed packs:  
+  
 Data Pack Type Summary  
 | Size |	Linear | Paged | Segmented |
 | ---- | ------ | ----- | --------- |
@@ -61,7 +62,7 @@ RAM Packs Type Summary
 |  64K	|        |   X   |           |
 | 128K	|        |   X   |     X     |
   
-In summary supported are 8 to 64 K Linear Data Packs, or devices emulating these pack addressing schemes. There is no inherent limit to the size which is only problematic for random access use. 
+The system supports 8K to 64K Linear Data Packs, and data pack devices that emulate these addressing schemes. While there is no inherent limit to the data pack size other than imposed by the operating system. Paged packs are generally more suitable for random access scenarios and are not supported at this time.
 
 ### 32K Linear & Paged Data Packs
 Example 32K Data Pack Configuration is shown in the image below.
@@ -81,18 +82,18 @@ Note: Both pack types operate normally in the Side Slots.<BR>
 
 ## Construction  
 Construction requires a minimum of:  
-- 2 layer PCB
-- 2 off, 2 x 8 way Right angle header (~8 mm engagement length, gold plated)
+- 2 layer PCB  
+- 2 off, 2 x 8 way Right angle header (~8 mm engagement length, gold plated)  
 <BR>
 Carefully verify connector heights where using typical header connectors not having 'classic' Organiser connector full body mouldings. See <a href="https://github.com/nofitnessforpurpose/TopSlotCase-2/?tab=readme-ov-file#connector-alignment">here</a> for construction techniques.  
 
 <BR>
 <BR>
 
-## Limitations
-The Operating system on the test CM and LZ variants did not index through drive D: e.g. FIND, SAVE etc. However, COPY D: To A: (or other location) does function.  
+## Limitations  
+The Operating System menu features of the test CM and LZ variants did not index through drive D: e.g. FIND, SAVE etc. However, COPY D: To A: (or other location) does function.  
 
-Running programs diretly on the top slot is readily achieved as described below:
+Running programs directly on the top slot is readily achieved as described below:  
 Create a stub program on A:, B: or C:  
 In the example case with the Info and Y2K fix pack, the stub program INF: on A: would be:  
 
@@ -101,12 +102,12 @@ INF:
 REM Stub code to run program on pack D:
 INFO:
 ```
-Notice the location is not specified. However, the system will locate the code on drive D: and run it from that location.
+Notice the location of INFO: is not specified. However, the operating system will locate the procedure code on drive D: and run it from that location.  
 
-This behaviour is detailed in the Technical Refrence manual in section <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/tech17.htm">17.7.20  QCO_PROC</a>  
+This behaviour is detailed in the Technical Reference manual in section <a target="_blank" rel="noopener noreferrer" href="https://www.jaapsch.net/psion/tech17.htm">17.7.20  QCO_PROC</a>  
 <BR>
 
-## Considerations
+## Considerations  
 The 3D model makes no accomodation for manufacturing tolerances, process or material - see Notes below.  
 
 The PCB has been tested in CM and LZ machines, it remains your responsiblity to asses suitability!  
